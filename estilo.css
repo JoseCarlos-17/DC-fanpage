@@ -1,0 +1,205 @@
+@charset"utf-8";
+@font-face {
+	font-family: arial;
+	src: url('comicbook.ttf');
+}
+
+/*formatação de texto*/
+h1 {
+	text-shadow: 3px 2px 1px black;
+	font-size: 300%;
+	font-family: arial;
+}
+
+h2 {
+	text-shadow: 3px 2px 1px black;
+	font-family: arial;
+	font-size: 20px;
+}
+
+h3 {
+	text-shadow: 3px 2px 1px black;
+	font-family: arial;
+	font-size: 20px;
+}
+
+a {
+	color: white;
+	font-family: arial;
+}
+
+p {
+	text-align: justify;
+	color: white;
+	text-shadow: 2px 1px 3px black;
+	text-indent: 5%;
+	font-size: 18px;
+}
+
+ul {
+	font-size: 18px;
+}
+
+/*formatação de corpo*/
+
+
+body {
+	background-color: rgb(0, 0, 0);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	color: white;
+}
+
+div#interface {
+	width: 1100px;
+	margin: -15px auto 0px auto;
+	box-shadow: 2px 1px 3px black;
+	background-color: rgba(4, 25, 77, 0.9);
+	padding: 25px;
+	background-image: url(dccomic.jpg);
+	background-position: center;
+	border: 6px double blue;
+	box-shadow: 0px 0px 20px blue;
+
+}
+
+.main-image{
+	width: 1282px;
+	height: 667px;
+	right: 8px;
+  z-index: -1;
+	position: relative;
+	margin-top: -220px;
+}
+
+/* figure.logo {
+	top: 30px;
+	right: 350px;
+	position: absolute;
+} */
+
+/* figure.logo > a > img {
+	width: 400px;
+	height: 150px;
+} */
+
+/*formatação de imagem*/
+
+figure.peq img {
+	border: 6px solid white;
+	display: inline-block;
+	box-shadow: 2px 1px 3px black;
+	width: 15%;
+	height: 10%;
+	margin: 10px;
+	
+}
+
+figure.foto-heroi img {
+	border: 8px solid white;
+	display: inline-block;
+	box-shadow: 2px 1px 3px black;
+	width: 30%;
+	height: 25%;
+	margin: 16px;
+}
+
+figcaption.direita {
+	text-align: right;
+}
+
+figcaption.esquerda {
+	text-align: left;
+}
+
+figure.foto-galeria {
+  border: 8px solid white;
+	box-shadow: 2px 1px 3px black;
+  max-width: 100%;
+}
+
+figure.foto-galeria img {
+	display: inline-block;
+	width: 100%;
+}
+
+ul.fotos-galeria{
+	display: grid;
+  list-style: none;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  gap: 20px;
+}
+
+ul.herois-img {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+ul.viloes-img {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+figcaption.legenda{
+	text-align: center;
+}
+
+img.heroi {
+	height: 180px;
+	border: 8px solid white;
+}
+
+img.vilao {
+	height: 180px;
+	border: 8px solid white;
+}
+
+#cabeçalho {
+  display: flex;
+  flex-direction: row;
+	background-image: url('dccabeçalho2.jpg');
+	background-position: center;
+	border-bottom: 4px red double;
+	height: 150px;
+}
+
+/*formatação de menu*/
+
+nav#menu-site > .menu-list > li {
+	color: white;
+	top: 25px;
+	right: 10px;
+	position: relative;
+	box-shadow: 3px 2px 4px black;
+	display: inline-block;
+	border: 1px dotted blue;
+	border-width: 2px;
+	padding: 10px;
+	width: 110px;
+	background-color: rgba(0, 25, 126, 1.0);
+	transition: background-color 1s;
+	text-decoration: none;
+  margin: 0px 2px 0px 2px;
+}
+
+nav#menu-site > .menu-list > li:hover {
+	background-color: lightblue;
+}
+
+nav#menu-site > .menu-list > li > a {
+	transition: color;
+	text-decoration: none;
+}
+
+nav#menu-site > .menu-list > li > a:hover {
+	color: black;
+}
