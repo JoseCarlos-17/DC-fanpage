@@ -1,9 +1,10 @@
 let menuList = document.querySelector('.menu-list');
+
 let menuArray = [
-  { name: 'Heróis', link: '../html/Herois DC.html' },
-  { name: 'Vilões', link: '../html/Viloes DC.html' },
+  { name: 'Heróis', link: '../html/herois.html' },
+  { name: 'Vilões', link: '../html/viloes.html' },
   { name: 'Menu', link: '../index.html' },
-  { name: 'Galeria', link: '../html/Galeria DC.html' }
+  { name: 'Galeria', link: '../html/galeria.html' }
 ]
 
 const loadMenu = () => {
